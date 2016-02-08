@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Operand.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Value.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/types.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Type.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Value.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lexer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VirtualMachine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lexer.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Equal.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VirtualMachine.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OpCode.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Compare.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Command.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Operand.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Command.hpp" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://D:/MinGW/mingw32/lib/gcc/i686-w64-mingw32/5.2.0/include-fixed" />
+          <root url="file://D:/MinGW/mingw32/lib/gcc/i686-w64-mingw32/5.2.0/include" />
+          <root url="file://D:/MinGW/mingw32/i686-w64-mingw32/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://D:/MinGW/mingw32/lib/gcc/i686-w64-mingw32/5.2.0/include-fixed" />
+          <root url="file://D:/MinGW/mingw32/lib/gcc/i686-w64-mingw32/5.2.0/include" />
+          <root url="file://D:/MinGW/mingw32/i686-w64-mingw32/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
