@@ -121,7 +121,7 @@ VirtualMachine* VirtualMachine::equal(const std::pair<Operand, Operand>& ops) {
     const Value& v2 = this->unpack(ops.second);
 
     if (v1.getType() == Type::String && v2.getType() == Type::String) {
-        _compare = v1.getString() == v2.getString() ? 0 : -1;
+        _compare = v1.getString() == v2.getString();
     } else if (v1.getType() == v2.getType() &&
                (v1.getType() == Type::Integer ||
                 v1.getType() == Type::Boolean ||
