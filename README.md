@@ -27,7 +27,10 @@ while i < 5 {
 }
 ```
 
-## OpCode Output:
+## OpCode-Output:
+
+Schema: `<OpCode> <Operand1>[, <Operand2>]`
+
 ```
 assign &0, 42
 print &0
@@ -53,7 +56,13 @@ assign &3, ~0
 skip #-5
 ```
 
-## Console Output / Interpreation:
+| OpCode        | Interpretation          |
+| ------------- |:-------------:
+|`&<number>`|Variable|
+|`~<number>`|Stack-Offset|
+|`#<number>`|Address-Offset|
+
+## Console-Output / Interpretation:
 ```
 42
 23
